@@ -10,6 +10,8 @@
 #endif
 #endif
 
+#import "XMTabBar.h"
+#import "XMTabBarItem.h"
 
 FOUNDATION_EXPORT double XMTabBarVersionNumber;
 FOUNDATION_EXPORT const unsigned char XMTabBarVersionString[];

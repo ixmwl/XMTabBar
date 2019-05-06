@@ -7,242 +7,274 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		258AE0DD5065BC6FC38B4008466E72B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		3EC36A6A5D0D151C4CDC59217053E107 /* Pods-XMTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 935DDDB8D6344320D5C60C14C182ABF4 /* Pods-XMTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58F29BB405287C16FA148F9A880F4E9F /* Pods-XMTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE567421E529303F90AD1E4FEDB917F /* Pods-XMTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		85B0516C2DA3DA80020974283D32A61B /* Pods-XMTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CD57C20C21EEA4B06B06DA2E41B129D /* Pods-XMTabBar_Tests-dummy.m */; };
-		954024D042EE39D950DB4FABBF9D02F3 /* Pods-XMTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C5BA0531424151D7504E0F3BDC7D093 /* Pods-XMTabBar_Example-dummy.m */; };
-		AA45B907C7D6606C92F5100E34E95BED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		CEC7F77D7A5F966FF723BE6DB9EFE63D /* XMTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E024D99D903D9C90C308899E11B6A16C /* XMTabBar-dummy.m */; };
-		E338969D74AEACFEC0936DE5C47C858B /* XMTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3210C253CDB9E12784DA4186BE42F48 /* XMTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1B17AA419B662A47EBDF2CDBC9FFD61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FADF4B6364E08174E2C178856F146684 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = C49375EE57F4E0BA3965E210336B6D68 /* ReplaceMe.m */; };
+		51A453BBF2DA88F92FD9568F74FC1FA7 /* XMTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E83FEC725A470FF97C69509818489AC6 /* XMTabBar.m */; };
+		65BF6FA767E525D82EED52F7BAA316F9 /* XMTabBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F8583B3F10728F45A7A8B8286E29AC3E /* XMTabBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		877774FCA73372796FEFCFE6112E3CAB /* XMTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 9271261314E437C0ACBD82E3FA1A066C /* XMTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9B56B33BA5190FF5F2C7F03BED00072E /* XMTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 676E19B21BF62EA540608D5D6E517BF4 /* XMTabBarItem.m */; };
+		A0C181852990AA904C28755C4FCDCA5C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		ACD6FFCD94312C38E73DDC0ED46B46E4 /* Pods-XMTabBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F055FCA7F139D09937EB6E5ABE9309 /* Pods-XMTabBar_Tests-dummy.m */; };
+		B6F340677A878854E820CD5662A1A315 /* Pods-XMTabBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5666701ECBB510306DD70728A51804A8 /* Pods-XMTabBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B712AF6571433807441032F716C120FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		CFD11CCACB31DDBFADC60D8C3F05C856 /* Pods-XMTabBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 334F37DF968FE1DA084E5A66B8DBF86B /* Pods-XMTabBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DFC65FDBDEF5D5794E1D4A1CC35AB4FA /* XMTabBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8448FE79ECDE854710208E89A3E8AF09 /* XMTabBar-dummy.m */; };
+		EDAA91849B2D2F75732ECFB2D69C9BEC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EFCEE3B92842DBDF8BEA298484472A09 /* XMTabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = FE48BD479D6A8FBD7FC4C664322C75ED /* XMTabBarItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7829A9E8A357C082619CD55E1C63B8F /* Pods-XMTabBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D6C92DD4F7B4E0E76B43105E400BD82 /* Pods-XMTabBar_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		07A8935D5650F3D35FDE48A47582D192 /* PBXContainerItemProxy */ = {
+		C3A17B4F713D602F609FD3FBA6962194 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3E3451B659385B3D76ACE5C188C474AD;
+			remoteGlobalIDString = 43E2C2D17F1ADAF3B8AB0CF91B0BDBB9;
 			remoteInfo = XMTabBar;
+		};
+		EF6893AE00AEB96454E67817CD719984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3246C32E6CC7224F3AE1740CD7CCC72C;
+			remoteInfo = "Pods-XMTabBar_Example";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1519851A079F55AEC57A619AAA8D96D5 /* Pods-XMTabBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMTabBar_Example-resources.sh"; sourceTree = "<group>"; };
-		29675283CD922779286FF24DA8DC7127 /* Pods-XMTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		344AF9A6913E6FC3070D9EA24AFFCB96 /* Pods-XMTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		3EE567421E529303F90AD1E4FEDB917F /* Pods-XMTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		4FCF6503056F7058121CB618E7EC4AA2 /* Pods_XMTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMTabBar_Tests.framework; path = "Pods-XMTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		54ABC4FD248A23E6E4050497F2731658 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5CD57C20C21EEA4B06B06DA2E41B129D /* Pods-XMTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
-		6008E8C9E1D30F9B960AE2963894B64F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		794EECD07C70352B1898CDD93B26A227 /* XMTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMTabBar.framework; path = XMTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88738FFC6D674DD2CC058BBE4305C794 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		88C647B17F10A8BB988FC23124ECBA9B /* Pods-XMTabBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMTabBar_Tests-resources.sh"; sourceTree = "<group>"; };
-		89BA304E5272DB1B0B7829258162DB06 /* Pods-XMTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8C5BA0531424151D7504E0F3BDC7D093 /* Pods-XMTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMTabBar_Example-dummy.m"; sourceTree = "<group>"; };
-		8FD39F95AEFA2FA6C3B386074909DFC7 /* XMTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMTabBar.modulemap; sourceTree = "<group>"; };
-		935DDDB8D6344320D5C60C14C182ABF4 /* Pods-XMTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A290B8FE034DE2EB3098CC2A5EA936A1 /* Pods-XMTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A5F430E71A56C7B66A9D39D65F556B9D /* Pods-XMTabBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMTabBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B566DDC43C9B26D758AE4B96490EA036 /* Pods_XMTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMTabBar_Example.framework; path = "Pods-XMTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C23DD5DEF7C87274517417CE63CB0667 /* XMTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMTabBar-prefix.pch"; sourceTree = "<group>"; };
-		C3210C253CDB9E12784DA4186BE42F48 /* XMTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMTabBar-umbrella.h"; sourceTree = "<group>"; };
-		C4277E5EE406CAC0648BD4F8F3DD9725 /* Pods-XMTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMTabBar_Tests.modulemap"; sourceTree = "<group>"; };
-		C49375EE57F4E0BA3965E210336B6D68 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = XMTabBar/Classes/ReplaceMe.m; sourceTree = "<group>"; };
-		C804A898811E6CD446F4D23F424CFF38 /* Pods-XMTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E024D99D903D9C90C308899E11B6A16C /* XMTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMTabBar-dummy.m"; sourceTree = "<group>"; };
-		E5F215F04FE3BFAD7C41E0969C385BE9 /* Pods-XMTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMTabBar_Example.modulemap"; sourceTree = "<group>"; };
-		E5FE7B86505CFBC006C294B4651ED6C7 /* XMTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMTabBar.xcconfig; sourceTree = "<group>"; };
-		E6C7F25E923CC872E6FA592758B56871 /* Pods-XMTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E8A7A62C18E2BD481DD810C7DE8E86E1 /* Pods-XMTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		EC3FD510CE92866C48F5BA9314592408 /* Pods-XMTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FD866DCBC721FF0AA69DDCD7119F3D5C /* Pods-XMTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		125E0AADA6D66F391B0371583BA81272 /* Pods-XMTabBar_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMTabBar_Tests-Info.plist"; sourceTree = "<group>"; };
+		20907F8BE0DD94FA690D63640DE59C37 /* Pods-XMTabBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMTabBar_Example.modulemap"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		334F37DF968FE1DA084E5A66B8DBF86B /* Pods-XMTabBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMTabBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3CF8B83C3D7D61BD0C8CBC946BECE0CA /* Pods-XMTabBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XMTabBar_Tests.modulemap"; sourceTree = "<group>"; };
+		54F6F8F5C18F481A245223D9D7E0F361 /* Pods-XMTabBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5666701ECBB510306DD70728A51804A8 /* Pods-XMTabBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XMTabBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		5AC59B82475101FBAC11976A679D8989 /* Pods-XMTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		640A7E1A449ECEB3A2CA7A403E1B592B /* Pods-XMTabBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMTabBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		676E19B21BF62EA540608D5D6E517BF4 /* XMTabBarItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMTabBarItem.m; path = XMTabBar/Classes/XMTabBarItem.m; sourceTree = "<group>"; };
+		6D6C92DD4F7B4E0E76B43105E400BD82 /* Pods-XMTabBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMTabBar_Example-dummy.m"; sourceTree = "<group>"; };
+		6EA16D1030FDB55526BCC811C40C35BC /* Pods-XMTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7258AF0384AD0B9B02D110F5590FB36B /* Pods-XMTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XMTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		7F04C5796C2577569C5A5EFBB82C02B5 /* Pods-XMTabBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMTabBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8448FE79ECDE854710208E89A3E8AF09 /* XMTabBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XMTabBar-dummy.m"; sourceTree = "<group>"; };
+		920140F098AE510D51B6AB933348B93E /* Pods_XMTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMTabBar_Tests.framework; path = "Pods-XMTabBar_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9271261314E437C0ACBD82E3FA1A066C /* XMTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMTabBar.h; path = XMTabBar/Classes/XMTabBar.h; sourceTree = "<group>"; };
+		996E0BE0E082D45344D9EE4EE491E798 /* Pods-XMTabBar_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMTabBar_Example-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4AC93F78390BEB03A107BBA4F1CC9DE /* XMTabBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMTabBar.modulemap; sourceTree = "<group>"; };
+		B2CA7BD916BA7335081846AB0B18F12E /* XMTabBar-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XMTabBar-Info.plist"; sourceTree = "<group>"; };
+		B61374C013E746496F3BC374CD7092AD /* XMTabBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMTabBar-prefix.pch"; sourceTree = "<group>"; };
+		B90B93AFE96D19C35731D10516A9E9C1 /* XMTabBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMTabBar.xcconfig; sourceTree = "<group>"; };
+		C306830E844E73BF365A4AE596B6EA42 /* Pods-XMTabBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XMTabBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C9A6A1AA4FA0DBE451CE2D66F58EDC9E /* Pods-XMTabBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XMTabBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2DB0E1A478F05B64069E22B48CE0C5C /* Pods-XMTabBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XMTabBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		E6F055FCA7F139D09937EB6E5ABE9309 /* Pods-XMTabBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XMTabBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		E83FEC725A470FF97C69509818489AC6 /* XMTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMTabBar.m; path = XMTabBar/Classes/XMTabBar.m; sourceTree = "<group>"; };
+		F10EC9C00D9BE1C7170844BE84B9AB96 /* XMTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XMTabBar.framework; path = XMTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8583B3F10728F45A7A8B8286E29AC3E /* XMTabBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XMTabBar-umbrella.h"; sourceTree = "<group>"; };
+		F9F76DB5E5955E12B8D42ECBBEE82495 /* Pods_XMTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XMTabBar_Example.framework; path = "Pods-XMTabBar_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE48BD479D6A8FBD7FC4C664322C75ED /* XMTabBarItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMTabBarItem.h; path = XMTabBar/Classes/XMTabBarItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		112EBAA4DD58679DC76DA037762C78CD /* Frameworks */ = {
+		292D427D963657E43FFF3533484CF5FE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA45B907C7D6606C92F5100E34E95BED /* Foundation.framework in Frameworks */,
+				A0C181852990AA904C28755C4FCDCA5C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		43DE91E7D820CF4B86C6AD78A5C89CC4 /* Frameworks */ = {
+		4F0EC31C0CA9CEDF434EC0EBBE205361 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				258AE0DD5065BC6FC38B4008466E72B4 /* Foundation.framework in Frameworks */,
+				EDAA91849B2D2F75732ECFB2D69C9BEC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1D72A76114FCFB83E7E87C56CA166FC /* Frameworks */ = {
+		AA6AF6A89D3D2A647DEEDFB437B65137 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1B17AA419B662A47EBDF2CDBC9FFD61 /* Foundation.framework in Frameworks */,
+				B712AF6571433807441032F716C120FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1B7155B5B88B67CCA02D90787C5BACF7 /* Products */ = {
+		372657445C29932F3727E27E7C135682 /* Pods-XMTabBar_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				B566DDC43C9B26D758AE4B96490EA036 /* Pods_XMTabBar_Example.framework */,
-				4FCF6503056F7058121CB618E7EC4AA2 /* Pods_XMTabBar_Tests.framework */,
-				794EECD07C70352B1898CDD93B26A227 /* XMTabBar.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2832FDD0103F84C0DF999EC328509117 /* XMTabBar */ = {
-			isa = PBXGroup;
-			children = (
-				C49375EE57F4E0BA3965E210336B6D68 /* ReplaceMe.m */,
-				E2C9F2A450C5C24E0F0B24DBAEE69EC3 /* Support Files */,
-			);
-			name = XMTabBar;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		5B90E6B6036C76E6AC5DCC7257961757 /* Pods-XMTabBar_Example */ = {
-			isa = PBXGroup;
-			children = (
-				54ABC4FD248A23E6E4050497F2731658 /* Info.plist */,
-				E5F215F04FE3BFAD7C41E0969C385BE9 /* Pods-XMTabBar_Example.modulemap */,
-				344AF9A6913E6FC3070D9EA24AFFCB96 /* Pods-XMTabBar_Example-acknowledgements.markdown */,
-				89BA304E5272DB1B0B7829258162DB06 /* Pods-XMTabBar_Example-acknowledgements.plist */,
-				8C5BA0531424151D7504E0F3BDC7D093 /* Pods-XMTabBar_Example-dummy.m */,
-				C804A898811E6CD446F4D23F424CFF38 /* Pods-XMTabBar_Example-frameworks.sh */,
-				1519851A079F55AEC57A619AAA8D96D5 /* Pods-XMTabBar_Example-resources.sh */,
-				3EE567421E529303F90AD1E4FEDB917F /* Pods-XMTabBar_Example-umbrella.h */,
-				A290B8FE034DE2EB3098CC2A5EA936A1 /* Pods-XMTabBar_Example.debug.xcconfig */,
-				FD866DCBC721FF0AA69DDCD7119F3D5C /* Pods-XMTabBar_Example.release.xcconfig */,
-			);
-			name = "Pods-XMTabBar_Example";
-			path = "Target Support Files/Pods-XMTabBar_Example";
-			sourceTree = "<group>";
-		};
-		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		6F7D6A81811845B62DAA36592EA18660 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5B90E6B6036C76E6AC5DCC7257961757 /* Pods-XMTabBar_Example */,
-				D7A772971A7C6EECECDEF45298EE80C9 /* Pods-XMTabBar_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				E0530FD13E213F6CBE7FB703DFBDF8D3 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				1B7155B5B88B67CCA02D90787C5BACF7 /* Products */,
-				6F7D6A81811845B62DAA36592EA18660 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				5E0D919E635D23B70123790B8308F8EF /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D7A772971A7C6EECECDEF45298EE80C9 /* Pods-XMTabBar_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				6008E8C9E1D30F9B960AE2963894B64F /* Info.plist */,
-				C4277E5EE406CAC0648BD4F8F3DD9725 /* Pods-XMTabBar_Tests.modulemap */,
-				E8A7A62C18E2BD481DD810C7DE8E86E1 /* Pods-XMTabBar_Tests-acknowledgements.markdown */,
-				29675283CD922779286FF24DA8DC7127 /* Pods-XMTabBar_Tests-acknowledgements.plist */,
-				5CD57C20C21EEA4B06B06DA2E41B129D /* Pods-XMTabBar_Tests-dummy.m */,
-				A5F430E71A56C7B66A9D39D65F556B9D /* Pods-XMTabBar_Tests-frameworks.sh */,
-				88C647B17F10A8BB988FC23124ECBA9B /* Pods-XMTabBar_Tests-resources.sh */,
-				935DDDB8D6344320D5C60C14C182ABF4 /* Pods-XMTabBar_Tests-umbrella.h */,
-				E6C7F25E923CC872E6FA592758B56871 /* Pods-XMTabBar_Tests.debug.xcconfig */,
-				EC3FD510CE92866C48F5BA9314592408 /* Pods-XMTabBar_Tests.release.xcconfig */,
+				3CF8B83C3D7D61BD0C8CBC946BECE0CA /* Pods-XMTabBar_Tests.modulemap */,
+				7F04C5796C2577569C5A5EFBB82C02B5 /* Pods-XMTabBar_Tests-acknowledgements.markdown */,
+				C9A6A1AA4FA0DBE451CE2D66F58EDC9E /* Pods-XMTabBar_Tests-acknowledgements.plist */,
+				E6F055FCA7F139D09937EB6E5ABE9309 /* Pods-XMTabBar_Tests-dummy.m */,
+				125E0AADA6D66F391B0371583BA81272 /* Pods-XMTabBar_Tests-Info.plist */,
+				334F37DF968FE1DA084E5A66B8DBF86B /* Pods-XMTabBar_Tests-umbrella.h */,
+				5AC59B82475101FBAC11976A679D8989 /* Pods-XMTabBar_Tests.debug.xcconfig */,
+				6EA16D1030FDB55526BCC811C40C35BC /* Pods-XMTabBar_Tests.release.xcconfig */,
 			);
 			name = "Pods-XMTabBar_Tests";
 			path = "Target Support Files/Pods-XMTabBar_Tests";
 			sourceTree = "<group>";
 		};
-		E0530FD13E213F6CBE7FB703DFBDF8D3 /* Development Pods */ = {
+		51A5D407F110A1AB2D5B787BD90AC9F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2832FDD0103F84C0DF999EC328509117 /* XMTabBar */,
+				F9F76DB5E5955E12B8D42ECBBEE82495 /* Pods_XMTabBar_Example.framework */,
+				920140F098AE510D51B6AB933348B93E /* Pods_XMTabBar_Tests.framework */,
+				F10EC9C00D9BE1C7170844BE84B9AB96 /* XMTabBar.framework */,
 			);
-			name = "Development Pods";
+			name = Products;
 			sourceTree = "<group>";
 		};
-		E2C9F2A450C5C24E0F0B24DBAEE69EC3 /* Support Files */ = {
+		5B04205AEA6A5164D949067625C0D808 /* XMTabBar */ = {
 			isa = PBXGroup;
 			children = (
-				88738FFC6D674DD2CC058BBE4305C794 /* Info.plist */,
-				8FD39F95AEFA2FA6C3B386074909DFC7 /* XMTabBar.modulemap */,
-				E5FE7B86505CFBC006C294B4651ED6C7 /* XMTabBar.xcconfig */,
-				E024D99D903D9C90C308899E11B6A16C /* XMTabBar-dummy.m */,
-				C23DD5DEF7C87274517417CE63CB0667 /* XMTabBar-prefix.pch */,
-				C3210C253CDB9E12784DA4186BE42F48 /* XMTabBar-umbrella.h */,
+				9271261314E437C0ACBD82E3FA1A066C /* XMTabBar.h */,
+				E83FEC725A470FF97C69509818489AC6 /* XMTabBar.m */,
+				FE48BD479D6A8FBD7FC4C664322C75ED /* XMTabBarItem.h */,
+				676E19B21BF62EA540608D5D6E517BF4 /* XMTabBarItem.m */,
+				D0402CA7A733A0BD3E74EC8E0F5993CA /* Support Files */,
+			);
+			name = XMTabBar;
+			path = XMTabBar;
+			sourceTree = "<group>";
+		};
+		6D57A231D8DFBCA9E34B9010FDC98235 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B04205AEA6A5164D949067625C0D808 /* XMTabBar */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7141A056F7735D6AFF88916FE8824E1D /* Pods-XMTabBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				20907F8BE0DD94FA690D63640DE59C37 /* Pods-XMTabBar_Example.modulemap */,
+				C306830E844E73BF365A4AE596B6EA42 /* Pods-XMTabBar_Example-acknowledgements.markdown */,
+				640A7E1A449ECEB3A2CA7A403E1B592B /* Pods-XMTabBar_Example-acknowledgements.plist */,
+				6D6C92DD4F7B4E0E76B43105E400BD82 /* Pods-XMTabBar_Example-dummy.m */,
+				E2DB0E1A478F05B64069E22B48CE0C5C /* Pods-XMTabBar_Example-frameworks.sh */,
+				996E0BE0E082D45344D9EE4EE491E798 /* Pods-XMTabBar_Example-Info.plist */,
+				5666701ECBB510306DD70728A51804A8 /* Pods-XMTabBar_Example-umbrella.h */,
+				54F6F8F5C18F481A245223D9D7E0F361 /* Pods-XMTabBar_Example.debug.xcconfig */,
+				7258AF0384AD0B9B02D110F5590FB36B /* Pods-XMTabBar_Example.release.xcconfig */,
+			);
+			name = "Pods-XMTabBar_Example";
+			path = "Target Support Files/Pods-XMTabBar_Example";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6D57A231D8DFBCA9E34B9010FDC98235 /* Pods */,
+				51A5D407F110A1AB2D5B787BD90AC9F7 /* Products */,
+				DB0FDEA5F2CDEA077BFBA3373F9D7572 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0402CA7A733A0BD3E74EC8E0F5993CA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A4AC93F78390BEB03A107BBA4F1CC9DE /* XMTabBar.modulemap */,
+				B90B93AFE96D19C35731D10516A9E9C1 /* XMTabBar.xcconfig */,
+				8448FE79ECDE854710208E89A3E8AF09 /* XMTabBar-dummy.m */,
+				B2CA7BD916BA7335081846AB0B18F12E /* XMTabBar-Info.plist */,
+				B61374C013E746496F3BC374CD7092AD /* XMTabBar-prefix.pch */,
+				F8583B3F10728F45A7A8B8286E29AC3E /* XMTabBar-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XMTabBar";
+			path = "../Target Support Files/XMTabBar";
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB0FDEA5F2CDEA077BFBA3373F9D7572 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7141A056F7735D6AFF88916FE8824E1D /* Pods-XMTabBar_Example */,
+				372657445C29932F3727E27E7C135682 /* Pods-XMTabBar_Tests */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		46AAEA38B937D15F0B7E0E82637FFFF2 /* Headers */ = {
+		1789E03A62E1EEDD7DF929A4576AFFFB /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				58F29BB405287C16FA148F9A880F4E9F /* Pods-XMTabBar_Example-umbrella.h in Headers */,
+				CFD11CCACB31DDBFADC60D8C3F05C856 /* Pods-XMTabBar_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		898D7DA5EDB9BA19A772D277FB328981 /* Headers */ = {
+		B5895C7D1A7F455F6A47DF57B02B28E6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E338969D74AEACFEC0936DE5C47C858B /* XMTabBar-umbrella.h in Headers */,
+				B6F340677A878854E820CD5662A1A315 /* Pods-XMTabBar_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5FDA5E2C9A8C0F34B59153DCAEE5C43 /* Headers */ = {
+		E1E22A21BE535F8CAAE874E0D5D70068 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EC36A6A5D0D151C4CDC59217053E107 /* Pods-XMTabBar_Tests-umbrella.h in Headers */,
+				65BF6FA767E525D82EED52F7BAA316F9 /* XMTabBar-umbrella.h in Headers */,
+				877774FCA73372796FEFCFE6112E3CAB /* XMTabBar.h in Headers */,
+				EFCEE3B92842DBDF8BEA298484472A09 /* XMTabBarItem.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3E3451B659385B3D76ACE5C188C474AD /* XMTabBar */ = {
+		3246C32E6CC7224F3AE1740CD7CCC72C /* Pods-XMTabBar_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DB2A64F407A628001ACBDAA07CD2FB5E /* Build configuration list for PBXNativeTarget "XMTabBar" */;
+			buildConfigurationList = 21F9013FFF1752DE203614F9E249C890 /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Example" */;
 			buildPhases = (
-				D1797BBD01731B7FD0DC64624A9F59B6 /* Sources */,
-				112EBAA4DD58679DC76DA037762C78CD /* Frameworks */,
-				898D7DA5EDB9BA19A772D277FB328981 /* Headers */,
+				B5895C7D1A7F455F6A47DF57B02B28E6 /* Headers */,
+				37CC72CB30DC1285FE82DEDFF116E2D6 /* Sources */,
+				292D427D963657E43FFF3533484CF5FE /* Frameworks */,
+				558FE5DC3BF3FF4E3266C4946D522F75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				538DB0E8CB04327AE5B34406171225DC /* PBXTargetDependency */,
+			);
+			name = "Pods-XMTabBar_Example";
+			productName = "Pods-XMTabBar_Example";
+			productReference = F9F76DB5E5955E12B8D42ECBBEE82495 /* Pods_XMTabBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		43E2C2D17F1ADAF3B8AB0CF91B0BDBB9 /* XMTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2143C5478FA3ED0705A0F888B9983AA1 /* Build configuration list for PBXNativeTarget "XMTabBar" */;
+			buildPhases = (
+				E1E22A21BE535F8CAAE874E0D5D70068 /* Headers */,
+				E238A1CC0F19BB312AF30A1FEAF40B59 /* Sources */,
+				4F0EC31C0CA9CEDF434EC0EBBE205361 /* Frameworks */,
+				D342637F52A43EF8371282092B7C0FD7 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -250,113 +282,161 @@
 			);
 			name = XMTabBar;
 			productName = XMTabBar;
-			productReference = 794EECD07C70352B1898CDD93B26A227 /* XMTabBar.framework */;
+			productReference = F10EC9C00D9BE1C7170844BE84B9AB96 /* XMTabBar.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3FD8BE582DBF931A19624A7D2676B29F /* Pods-XMTabBar_Tests */ = {
+		CFC66289B1B1F1FBF7115F8E96616F39 /* Pods-XMTabBar_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2786538DEF4DBDBB83F6C575CEC02F0E /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Tests" */;
+			buildConfigurationList = E4B960A32109B9CA4F353FB4BBCF6683 /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Tests" */;
 			buildPhases = (
-				DDD349FE6A3BA1A52D9643C9AE2396D3 /* Sources */,
-				43DE91E7D820CF4B86C6AD78A5C89CC4 /* Frameworks */,
-				C5FDA5E2C9A8C0F34B59153DCAEE5C43 /* Headers */,
+				1789E03A62E1EEDD7DF929A4576AFFFB /* Headers */,
+				899464E9DD730E77F302E3F7DE746557 /* Sources */,
+				AA6AF6A89D3D2A647DEEDFB437B65137 /* Frameworks */,
+				102CA3EE1C82653CFE80372FA3793E25 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8F2894DB76947D3A537679DE97A033CB /* PBXTargetDependency */,
 			);
 			name = "Pods-XMTabBar_Tests";
 			productName = "Pods-XMTabBar_Tests";
-			productReference = 4FCF6503056F7058121CB618E7EC4AA2 /* Pods_XMTabBar_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		BCEDBF3FAFF243A731B6255173736E99 /* Pods-XMTabBar_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 137EC66753DB5541674DBFF5BFF75E02 /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Example" */;
-			buildPhases = (
-				3022415C40BD78370F917EF316A081E8 /* Sources */,
-				F1D72A76114FCFB83E7E87C56CA166FC /* Frameworks */,
-				46AAEA38B937D15F0B7E0E82637FFFF2 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				491B4745D1B6064EEE9FFFA5413CC9F6 /* PBXTargetDependency */,
-			);
-			name = "Pods-XMTabBar_Example";
-			productName = "Pods-XMTabBar_Example";
-			productReference = B566DDC43C9B26D758AE4B96490EA036 /* Pods_XMTabBar_Example.framework */;
+			productReference = 920140F098AE510D51B6AB933348B93E /* Pods_XMTabBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 1B7155B5B88B67CCA02D90787C5BACF7 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 51A5D407F110A1AB2D5B787BD90AC9F7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BCEDBF3FAFF243A731B6255173736E99 /* Pods-XMTabBar_Example */,
-				3FD8BE582DBF931A19624A7D2676B29F /* Pods-XMTabBar_Tests */,
-				3E3451B659385B3D76ACE5C188C474AD /* XMTabBar */,
+				3246C32E6CC7224F3AE1740CD7CCC72C /* Pods-XMTabBar_Example */,
+				CFC66289B1B1F1FBF7115F8E96616F39 /* Pods-XMTabBar_Tests */,
+				43E2C2D17F1ADAF3B8AB0CF91B0BDBB9 /* XMTabBar */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		102CA3EE1C82653CFE80372FA3793E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		558FE5DC3BF3FF4E3266C4946D522F75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D342637F52A43EF8371282092B7C0FD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		3022415C40BD78370F917EF316A081E8 /* Sources */ = {
+		37CC72CB30DC1285FE82DEDFF116E2D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				954024D042EE39D950DB4FABBF9D02F3 /* Pods-XMTabBar_Example-dummy.m in Sources */,
+				F7829A9E8A357C082619CD55E1C63B8F /* Pods-XMTabBar_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D1797BBD01731B7FD0DC64624A9F59B6 /* Sources */ = {
+		899464E9DD730E77F302E3F7DE746557 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FADF4B6364E08174E2C178856F146684 /* ReplaceMe.m in Sources */,
-				CEC7F77D7A5F966FF723BE6DB9EFE63D /* XMTabBar-dummy.m in Sources */,
+				ACD6FFCD94312C38E73DDC0ED46B46E4 /* Pods-XMTabBar_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DDD349FE6A3BA1A52D9643C9AE2396D3 /* Sources */ = {
+		E238A1CC0F19BB312AF30A1FEAF40B59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85B0516C2DA3DA80020974283D32A61B /* Pods-XMTabBar_Tests-dummy.m in Sources */,
+				DFC65FDBDEF5D5794E1D4A1CC35AB4FA /* XMTabBar-dummy.m in Sources */,
+				51A453BBF2DA88F92FD9568F74FC1FA7 /* XMTabBar.m in Sources */,
+				9B56B33BA5190FF5F2C7F03BED00072E /* XMTabBarItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		491B4745D1B6064EEE9FFFA5413CC9F6 /* PBXTargetDependency */ = {
+		538DB0E8CB04327AE5B34406171225DC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = XMTabBar;
-			target = 3E3451B659385B3D76ACE5C188C474AD /* XMTabBar */;
-			targetProxy = 07A8935D5650F3D35FDE48A47582D192 /* PBXContainerItemProxy */;
+			target = 43E2C2D17F1ADAF3B8AB0CF91B0BDBB9 /* XMTabBar */;
+			targetProxy = C3A17B4F713D602F609FD3FBA6962194 /* PBXContainerItemProxy */;
+		};
+		8F2894DB76947D3A537679DE97A033CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XMTabBar_Example";
+			target = 3246C32E6CC7224F3AE1740CD7CCC72C /* Pods-XMTabBar_Example */;
+			targetProxy = EF6893AE00AEB96454E67817CD719984 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		12E761C8116A53A3CC3FC27D7551402C /* Release */ = {
+		0EC0A9B78B6B984C5769C5BF6BCBE0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5FE7B86505CFBC006C294B4651ED6C7 /* XMTabBar.xcconfig */;
+			baseConfigurationReference = 54F6F8F5C18F481A245223D9D7E0F361 /* Pods-XMTabBar_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		279E52BCBF971C1AF74243D5C693C63A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B90B93AFE96D19C35731D10516A9E9C1 /* XMTabBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -368,11 +448,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/XMTabBar/XMTabBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMTabBar/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/XMTabBar/XMTabBar-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/XMTabBar/XMTabBar.modulemap";
+				PRODUCT_MODULE_NAME = XMTabBar;
 				PRODUCT_NAME = XMTabBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -384,10 +465,11 @@
 			};
 			name = Release;
 		};
-		1C8AFBE11110B808954FAA57C750DE0E /* Debug */ = {
+		2EC7B96C9A96BA293A6F9DAEDEE29E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E6C7F25E923CC872E6FA592758B56871 /* Pods-XMTabBar_Tests.debug.xcconfig */;
+			baseConfigurationReference = 5AC59B82475101FBAC11976A679D8989 /* Pods-XMTabBar_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -397,7 +479,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Tests/Pods-XMTabBar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -407,7 +489,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XMTabBar_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -416,101 +498,7 @@
 			};
 			name = Debug;
 		};
-		3FA1768A781FEB2E41F8005B1598B079 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E5FE7B86505CFBC006C294B4651ED6C7 /* XMTabBar.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XMTabBar/XMTabBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XMTabBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/XMTabBar/XMTabBar.modulemap";
-				PRODUCT_NAME = XMTabBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		40CB79DDCD5948EE1D40C3A5B538B2A8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FD866DCBC721FF0AA69DDCD7119F3D5C /* Pods-XMTabBar_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XMTabBar_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AB1787066C00ED95AB58C9DFB5F06D8C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A290B8FE034DE2EB3098CC2A5EA936A1 /* Pods-XMTabBar_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XMTabBar_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		C3E37FB098AE76440E29106ADBF00CEB /* Debug */ = {
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -542,7 +530,66 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -563,77 +610,21 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		DA03565BE765DB55C6448FB363A44481 /* Release */ = {
+		914C7A007E959393187B694ADAE3425D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		F294FCF58D403D0DD7B44C27AC8E1985 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EC3FD510CE92866C48F5BA9314592408 /* Pods-XMTabBar_Tests.release.xcconfig */;
+			baseConfigurationReference = B90B93AFE96D19C35731D10516A9E9C1 /* XMTabBar.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -644,7 +635,72 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Tests/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/XMTabBar/XMTabBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XMTabBar/XMTabBar-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/XMTabBar/XMTabBar.modulemap";
+				PRODUCT_MODULE_NAME = XMTabBar;
+				PRODUCT_NAME = XMTabBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD489816F901279F1E4161A2D44CF034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7258AF0384AD0B9B02D110F5590FB36B /* Pods-XMTabBar_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB7D56654A32C27AB74C8AFE40B0ACE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6EA16D1030FDB55526BCC811C40C35BC /* Pods-XMTabBar_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XMTabBar_Tests/Pods-XMTabBar_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -654,7 +710,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_XMTabBar_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -667,43 +723,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		137EC66753DB5541674DBFF5BFF75E02 /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Example" */ = {
+		2143C5478FA3ED0705A0F888B9983AA1 /* Build configuration list for PBXNativeTarget "XMTabBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AB1787066C00ED95AB58C9DFB5F06D8C /* Debug */,
-				40CB79DDCD5948EE1D40C3A5B538B2A8 /* Release */,
+				914C7A007E959393187B694ADAE3425D /* Debug */,
+				279E52BCBF971C1AF74243D5C693C63A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2786538DEF4DBDBB83F6C575CEC02F0E /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Tests" */ = {
+		21F9013FFF1752DE203614F9E249C890 /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1C8AFBE11110B808954FAA57C750DE0E /* Debug */,
-				F294FCF58D403D0DD7B44C27AC8E1985 /* Release */,
+				0EC0A9B78B6B984C5769C5BF6BCBE0D8 /* Debug */,
+				CD489816F901279F1E4161A2D44CF034 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C3E37FB098AE76440E29106ADBF00CEB /* Debug */,
-				DA03565BE765DB55C6448FB363A44481 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DB2A64F407A628001ACBDAA07CD2FB5E /* Build configuration list for PBXNativeTarget "XMTabBar" */ = {
+		E4B960A32109B9CA4F353FB4BBCF6683 /* Build configuration list for PBXNativeTarget "Pods-XMTabBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FA1768A781FEB2E41F8005B1598B079 /* Debug */,
-				12E761C8116A53A3CC3FC27D7551402C /* Release */,
+				2EC7B96C9A96BA293A6F9DAEDEE29E13 /* Debug */,
+				FB7D56654A32C27AB74C8AFE40B0ACE7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

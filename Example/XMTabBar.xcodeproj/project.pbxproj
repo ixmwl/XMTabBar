@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41788A9D228007070085042F /* XMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41788A9C228007070085042F /* XMTabBarController.m */; };
 		509497CAE65FE037AD78886E /* Pods_XMTabBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7BFF9637A17756DC3A7D5D4 /* Pods_XMTabBar_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -41,6 +42,8 @@
 		16C4D2837DC452E70C21FD5A /* Pods-XMTabBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTabBar_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMTabBar_Tests/Pods-XMTabBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		1CDA59068E1C330EC0223211 /* Pods_XMTabBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMTabBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1EC2D89749FB8831A787AFA1 /* Pods-XMTabBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTabBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		41788A9B228007070085042F /* XMTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMTabBarController.h; sourceTree = "<group>"; };
+		41788A9C228007070085042F /* XMTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMTabBarController.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XMTabBar_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMTabBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,13 +63,13 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		6A342AB03FE6484A9E8D5AC4 /* XMTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XMTabBar.podspec; path = ../XMTabBar.podspec; sourceTree = "<group>"; };
+		6A342AB03FE6484A9E8D5AC4 /* XMTabBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XMTabBar.podspec; path = ../XMTabBar.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B7BFF9637A17756DC3A7D5D4 /* Pods_XMTabBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XMTabBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C31CA467298767E38C14EDBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C31CA467298767E38C14EDBC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		EB2F57AA6EB08B58C45E9BB3 /* Pods-XMTabBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XMTabBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XMTabBar_Tests/Pods-XMTabBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F72D2188A3A97139808E0E8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F72D2188A3A97139808E0E8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				41788A9B228007070085042F /* XMTabBarController.h */,
+				41788A9C228007070085042F /* XMTabBarController.m */,
 			);
 			name = "Example for XMTabBar";
 			path = XMTabBar;
@@ -208,7 +213,6 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				1EBDC0E7082F26B0A1AD2F5F /* [CP] Embed Pods Frameworks */,
-				A915EA70858DAEBDDC16E5E1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,8 +231,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				A2B9BF0D949F1E9A178637D9 /* [CP] Embed Pods Frameworks */,
-				BF149653974C27D4E08FEC2A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,7 +305,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/XMTabBar/XMTabBar.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -312,37 +314,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A2B9BF0D949F1E9A178637D9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMTabBar_Tests/Pods-XMTabBar_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A915EA70858DAEBDDC16E5E1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XMTabBar_Example/Pods-XMTabBar_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B4B494D68C3B5DCAE7DB4CA9 /* [CP] Check Pods Manifest.lock */ = {
@@ -361,21 +333,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BF149653974C27D4E08FEC2A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-XMTabBar_Tests/Pods-XMTabBar_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		DC45BB665E21ED441DF321D3 /* [CP] Check Pods Manifest.lock */ = {
@@ -403,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41788A9D228007070085042F /* XMTabBarController.m in Sources */,
 				6003F59E195388D20070C39A /* XMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

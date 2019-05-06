@@ -1,23 +1,63 @@
 # XMTabBar
 
-[![CI Status](https://img.shields.io/travis/ixmwl/XMTabBar.svg?style=flat)](https://travis-ci.org/ixmwl/XMTabBar)
-[![Version](https://img.shields.io/cocoapods/v/XMTabBar.svg?style=flat)](https://cocoapods.org/pods/XMTabBar)
-[![License](https://img.shields.io/cocoapods/l/XMTabBar.svg?style=flat)](https://cocoapods.org/pods/XMTabBar)
-[![Platform](https://img.shields.io/cocoapods/p/XMTabBar.svg?style=flat)](https://cocoapods.org/pods/XMTabBar)
+为TabBar点击增加动画效果,让你的点击不再单调,暂时就提供五种动画效果
+* 弹跳效果
+* 缩放效果
+* 翻转效果
+* 粒子爆炸效果
+* 抖动效果
+具体效果可参考下面的动图
+![]()
 
-## Example
+## Requirements 要求
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+* iOS 7+
+* Xcode 8+
 
-## Requirements
+## Installation 安装
 
-## Installation
+* **手动安装**
 
-XMTabBar is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+    下载DEMO后,将子文件夹XMTabBar拖入到项目中, 导入头文件XMTabBar.h开始使用,无需依赖其他框架
+
+* **CocoaPods安装**
+
+    ```ruby
+    pod 'XMTabBar'
+    ```
+    
+    
+## Usage使用
+* 导入头文件
 
 ```ruby
-pod 'XMTabBar'
+#import "XMTabBar.h"
+#import "XMTabBarItem.h"
+```
+
+* 定义一个tabBar
+
+```ruby
+@property(nonatomic,strong)XMTabBar *xmTabBar;
+```
+
+* 初始化自定义的TabBar
+
+
+```ruby
+XMTabBar *xmTabBar = [[XMTabBar alloc] initWithFrame:self.tabBar.frame
+                                   animationType:XMTabBarAnimationTypeShake];
+xmTabBar.xmdelegate = self;
+// 利于kvc替换系统TabBar
+[self setValue:xmTabBar forKeyPath:@"tabBar"];
+self.xmTabBar= xmTabBar;
+```
+* 实现代理方法,切换控制器
+
+```ruby
+-(void)didSelectedItem:(NSInteger)index{
+    self.selectedViewController = self.viewControllers[index];
+}
 ```
 
 ## Author
@@ -27,3 +67,5 @@ ixmwl, ixmwl510@163.com
 ## License
 
 XMTabBar is available under the MIT license. See the LICENSE file for more info.
+
+
