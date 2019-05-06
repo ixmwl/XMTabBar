@@ -44,35 +44,35 @@
 ## Usage使用
 * 导入头文件
 
-```ruby
-#import "XMTabBar.h"
-#import "XMTabBarItem.h"
-```
+    ```ruby
+    #import "XMTabBar.h"
+    #import "XMTabBarItem.h"
+    ```
 
 * 定义一个tabBar
 
-```ruby
-@property(nonatomic,strong)XMTabBar *xmTabBar;
-```
+    ```ruby
+    @property(nonatomic,strong)XMTabBar *xmTabBar;
+    ```
 
 * 初始化自定义的TabBar
 
 
-```ruby
-XMTabBar *xmTabBar = [[XMTabBar alloc] initWithFrame:self.tabBar.frame
-                                   animationType:XMTabBarAnimationTypeShake];
-xmTabBar.xmdelegate = self;
-// 利于kvc替换系统TabBar
-[self setValue:xmTabBar forKeyPath:@"tabBar"];
-self.xmTabBar= xmTabBar;
-```
+    ```ruby
+    XMTabBar *xmTabBar = [[XMTabBar alloc] initWithFrame:self.tabBar.frame
+                                       animationType:XMTabBarAnimationTypeShake];
+    xmTabBar.xmdelegate = self;
+    // 利于kvc替换系统TabBar
+    [self setValue:xmTabBar forKeyPath:@"tabBar"];
+    self.xmTabBar= xmTabBar;
+    ```
 * 实现代理方法,切换控制器
 
-```ruby
--(void)didSelectedItem:(NSInteger)index{
-    self.selectedViewController = self.viewControllers[index];
-}
-```
+    ```ruby
+    -(void)didSelectedItem:(NSInteger)index{
+        self.selectedViewController = self.viewControllers[index];
+    }
+    ```
 
 ## Author
 
