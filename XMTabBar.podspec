@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XMTabBar'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XMTabBar.'
+  s.summary          = '为TabBar点击添加动画效果.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        暂时为TabBar的提供四种点击动画效果:1、弹跳动画 2、缩放动画 3、翻转动画 4、粒子爆炸动画.
                        DESC
 
   s.homepage         = 'https://github.com/ixmwl/XMTabBar'

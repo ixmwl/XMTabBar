@@ -1,0 +1,22 @@
+{
+  "name": "XMTabBar",
+  "version": "0.1.0",
+  "summary": "A short description of XMTabBar.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ixmwl/XMTabBar",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ixmwl": "ixmwl510@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ixmwl/XMTabBar.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "XMTabBar/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module XMTabBar {
+  umbrella header "XMTabBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

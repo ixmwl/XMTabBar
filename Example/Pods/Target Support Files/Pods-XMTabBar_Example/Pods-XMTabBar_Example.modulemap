@@ -1,0 +1,6 @@
+framework module Pods_XMTabBar_Example {
+  umbrella header "Pods-XMTabBar_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
