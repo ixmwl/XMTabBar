@@ -2,19 +2,24 @@
 
 为TabBar点击增加动画效果,让你的点击不再单调,暂时就提供五种动画效果,具体效果可参考下面的动图
 
-* 弹跳效果
+> 弹跳效果
+
 ![](https://github.com/ixmwl/XMTabBar/blob/master/resource/spring.gif?raw=true)
 
-* 缩放效果
+> 缩放效果
+
 ![](https://github.com/ixmwl/XMTabBar/blob/master/resource/scale.gif?raw=true)
 
-* 翻转效果
+> 翻转效果
+
 ![](https://github.com/ixmwl/XMTabBar/blob/master/resource/roll.gif?raw=true)
 
-* 粒子爆炸效果
+> 粒子爆炸效果
+
 ![](https://github.com/ixmwl/XMTabBar/blob/master/resource/Boom%20.gif?raw=true)
 
-* 抖动效果
+> 抖动效果
+
 ![](https://github.com/ixmwl/XMTabBar/blob/master/resource/shake.gif?raw=true)
 
 
